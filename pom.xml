@@ -37,7 +37,7 @@
                         <!--                        list all runner classes here-->
                         <include>**/CucumberRunner*.java</include>
                     </includes>
-                    <testFailureIgnore>true</testFailureIgnore>
+                    <testFailureIgnore>false</testFailureIgnore>
                     <!--                    to rerun failed tests automatically -->
                     <!--                    <rerunFailingTestsCount>1</rerunFailingTestsCount>-->
                 </configuration>
