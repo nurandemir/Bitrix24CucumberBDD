@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         dryRun = false,
         strict = false,
-        tags = "@file_tab",
+        tags = "@workflow_tab",
         //command + shift + f => to deep search where tags used
         plugin = {
                 "html:target/default-report ",
