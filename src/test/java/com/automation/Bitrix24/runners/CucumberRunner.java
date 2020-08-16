@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
         tags = "@workflow_tab",
         //command + shift + f => to deep search where tags used
         plugin = {
-                "html:target/default-report ",
+                "html:target/default-report",
                 "json:target/cucumber1.json",//butun raporlarin kullanacagi asil report uretiyor(html report)
                 "rerun:target/rerun.txt" //generate list of scenarios that failed during test execution
         }
